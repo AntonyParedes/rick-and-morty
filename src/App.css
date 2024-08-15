@@ -1,0 +1,32 @@
+.app {
+    flex-direction: column;
+    gap: 2em;
+    .app__body {
+      padding: 1em 3em;
+    }
+  }
+  .form {
+    margin-bottom: 1.5em;
+    text-align: center;
+    .form__input {
+      padding: 0.5em 0.2em;
+      border-radius: 0.5em 0 0 0.5em;
+      width: 10em;
+    }
+    .form__btn {
+      padding: 0.5em 0.8em;
+      background-color: #04a904;
+      color: #fff;
+      font-weight: 500;
+      border-radius: 0 0.5em 0.5em 0;
+      transition: background-color 0.5s ease;
+      &:hover {
+        background-color: var(--secondary-color);
+      }
+    }
+  }
+  .cards__container {
+    gap: 2em;
+    padding-bottom: 3em;
+    flex-wrap: wrap;
+  }
