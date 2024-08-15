@@ -9,7 +9,7 @@
 
     &:hover {
         scale: 1.03;
-        box-shadow: 0 0 10px 1px white;
+        box-shadow: 0 0 15px 1px white;
     }
 }
 
@@ -55,10 +55,23 @@
 .resident__body {
     color: #fff;
     padding: 1.5em 1.5em 2em;
+    
     .resident__name {
       text-align: center;
       font-size: 1.5em;
       font-family: var(--font-alternative);
+      background-color:  #0a1210;
+      border-radius: 12px;
+      width: auto;
+    
+   
+      
+      
+    &:hover {
+      scale: 1.03;
+      background-color:  #069706;
+      
+  }
     }
     .resident__hr {
       margin: 1em 0;

@@ -64,7 +64,12 @@ function App() {
           <button className="form__btn">Search</button>
         </form>
         {isLoading ? (
-          <h1>Loading...</h1>
+          <div className="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         ) : errorMessage ? (
           <h1>❌{errorMessage}</h1>
         ) : (
